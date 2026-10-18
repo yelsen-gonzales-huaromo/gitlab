@@ -26,4 +26,4 @@ Repositorio de práctica. Cada tema se practica con commits y ramas reales.
 
 ## Apuntes
 
-_(se irán agregando por tema)_
+Apuntes de cada tema en la carpeta docs/.
