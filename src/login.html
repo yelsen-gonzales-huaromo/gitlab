@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <form class="login" action="#" method="post">
+    <h1>Acceso al sistema</h1>
+
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario" name="usuario" autocomplete="username" required>
+
+    <label for="password">Contraseña</label>
+    <input type="password" id="password" name="password" autocomplete="current-password" required>
+
+    <button type="submit">Ingresar</button>
+
+    <p class="ayuda"><a href="#">¿Olvidaste tu contraseña?</a></p>
+  </form>
+  <script src="js/validar.js"></script>
+</body>
+</html>
