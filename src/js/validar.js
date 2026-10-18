@@ -1,9 +1,9 @@
 // Validación del formulario de login
 function validarLogin(usuario, password) {
-  if (!usuario || usuario.length < 3) {
+  if (!usuario || usuario.length < 3 || !validarEmail(usuario)) {
     return "El usuario debe tener al menos 3 caracteres";
   }
-  if (!password || password.length < 8) {
+  if (!password || password.length < 8 || !validarEmail(password)) {
     return "La contraseña debe tener al menos 8 caracteres";
   }
   return null;
