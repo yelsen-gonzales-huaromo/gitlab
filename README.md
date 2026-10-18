@@ -26,4 +26,4 @@ Repositorio de práctica. Cada tema se practica con commits y ramas reales.
 
 ## Apuntes
 
-Apuntes de cada tema en la carpeta docs/.
+Estructura: el código está en `src/`. Ver [CHANGELOG](CHANGELOG.md) para el detalle de versiones.
